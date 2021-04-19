@@ -22,15 +22,14 @@ public class PracaDomowa_menuWyboru {
 
             if (menu == 1) {
                 System.out.println("4,22");;
-                i++;
-            }
+                            }
             else if (menu == 2) {
                 System.out.println("3,89");
-                i++;
+
             }
             else if (menu == 3) {
                 System.out.println("4,54");
-                i++;
+
             }
             else if (menu == 0) {
                 break;
