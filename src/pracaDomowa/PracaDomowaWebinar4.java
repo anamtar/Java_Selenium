@@ -4,19 +4,34 @@ public class PracaDomowaWebinar4 {
 
     public static void main(String[] args) {
 
-        System.out.println(printContactCard(););
-    }
+    Kontakt nowy = new Kontakt(1, "Józek", "Nowak", 23, 232323232);
 
-    public static void printContactCard(String contact){
-
-        int id = 3;
-        String name = "Iwan";
-        String surname = "Groźny";
-        int age = 32;
-        int phoneNumber = 3231212;
-
-        return contact = (id + name + surname + age + phoneNumber);
+    nowy.printContactCard();
 
     }
 
 }
+
+    class Kontakt
+    {
+        private int id;
+        private int age;
+        private int phoneNumber;
+        private String name;
+        private String nazwisko;
+
+        public Kontakt(int id, String name, String nazwisko, int age, int phoneNumber)
+        {
+            this.id = id;
+            this.name = name;
+            this.nazwisko = nazwisko;
+            this.age = age;
+            this.phoneNumber = phoneNumber;
+        }
+        void printContactCard(String kontakt)
+        {
+
+        }
+    }
+
+
